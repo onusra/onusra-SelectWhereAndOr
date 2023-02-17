@@ -20,6 +20,9 @@ public class ConnectionUtil {
     /**
      * @return active connection to the database
      */
+    public static void main(String [] args){
+        
+    }
     public static Connection getConnection(){
         if(connection == null){
             try {
